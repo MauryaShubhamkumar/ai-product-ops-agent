@@ -2,6 +2,8 @@
 
 An automated AI-powered pipeline to search, scrape, and audit developer API indicators for **100 SaaS applications** across 10 distinct categories. Built with Python, Google Serper, and Gemini 2.5 Flash.
 
+**🔗 Live Report Dashboard:** [https://ai-product-ops-agent.netlify.app/](https://ai-product-ops-agent.netlify.app/)
+
 This project enables Product Operations teams to quickly audit partner ecosystems and determine API capabilities: **Authentication Protocols**, **Self-Serve Access Models**, **API Surfaces (REST/GraphQL)**, **Model Context Protocol (MCP) Support**, and **Buildability Blockers**.
 
 ---

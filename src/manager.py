@@ -1,3 +1,5 @@
-"""
-Manager orchestrating the overall execution flow of the product ops agent.
-"""
+from research_agent import ResearchAgent
+
+agent = ResearchAgent()
+
+agent.research("Salesforce")

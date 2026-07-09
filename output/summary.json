@@ -1,0 +1,8 @@
+{
+    "total_apps": 100,
+    "oauth_apps": 10,
+    "api_key_apps": 22,
+    "self_serve": 81,
+    "gated": 15,
+    "buildable": 96
+}

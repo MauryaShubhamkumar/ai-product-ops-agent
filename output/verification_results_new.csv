@@ -1,0 +1,81 @@
+app,field,agent,docs,correct,notes
+Salesforce,Auth,Unknown,"OAuth2, API Key",❌,Agent reported Unknown; Salesforce utilizes OAuth2.
+Salesforce,API,"REST, Apex, Platform Events","REST, Apex, SOAP",✅,Matches primary APIs.
+Salesforce,Self Serve,True,Yes,✅,Matches.
+Salesforce,MCP,Unknown,No,❌,"Agent reported Unknown; Salesforce is a CRM cloud, not an MCP."
+HubSpot,Auth,Unknown,"OAuth2, API Key",❌,Agent reported Unknown; HubSpot utilizes OAuth2.
+HubSpot,API,"CRM APIs, CMS APIs, Object APIs...",REST,✅,Matches REST platform.
+HubSpot,Self Serve,Yes,Yes,✅,Matches.
+HubSpot,MCP,Unknown,No,❌,Agent reported Unknown; HubSpot is not an MCP.
+Pipedrive,Auth,Unknown,"OAuth2, API Key",❌,Agent reported Unknown; Pipedrive utilizes API Keys & OAuth2.
+Pipedrive,API,REST,REST,✅,Matches.
+Pipedrive,Self Serve,True,Yes,✅,Matches.
+Pipedrive,MCP,Unknown,No,❌,Agent reported Unknown.
+Attio,Auth,Unknown,"OAuth2, API Key",❌,Agent reported Unknown; Attio uses OAuth2 and API keys.
+Attio,API,REST,REST,✅,Matches.
+Attio,Self Serve,Yes,Yes,✅,Matches.
+Attio,MCP,Unknown,No,❌,Agent reported Unknown.
+Slack,Auth,"OAuth2, Bot Token","OAuth2, Bot Token",✅,Matches.
+Slack,API,"REST, Webhooks, Socket Mode","REST, Webhooks, Socket Mode",✅,Matches.
+Slack,Self Serve,Yes,Yes,✅,Matches.
+Slack,MCP,Yes (via MCP server),Yes (via MCP server),✅,Matches (Slack hosts official MCP servers).
+Twilio,Auth,"Account SID & Auth Token, API Key","Account SID & Auth Token, API Key",✅,Matches.
+Twilio,API,"REST, Webhooks","REST, Webhooks",✅,Matches.
+Twilio,Self Serve,Yes,Yes,✅,Matches.
+Twilio,MCP,No,No,✅,Matches.
+Stripe,Auth,"API Key, Restricted Token, OAuth2","API Key, Restricted Token, OAuth2",✅,Matches.
+Stripe,API,"REST, Webhooks","REST, Webhooks",✅,Matches.
+Stripe,Self Serve,Yes,Yes,✅,Matches.
+Stripe,MCP,No,No,✅,Matches.
+Shopify,Auth,"Access Token, OAuth2","Access Token, OAuth2",✅,Matches.
+Shopify,API,"GraphQL, REST, Webhooks","GraphQL, REST, Webhooks",✅,Matches.
+Shopify,Self Serve,Yes,Yes,✅,Matches.
+Shopify,MCP,No,No,✅,Matches.
+GitHub,Auth,"OAuth2, Personal Access Token (PAT), GitHub App Token","OAuth2, Personal Access Token (PAT), GitHub App Token",✅,Matches.
+GitHub,API,"REST, GraphQL, Webhooks","REST, GraphQL, Webhooks",✅,Matches.
+GitHub,Self Serve,Yes,Yes,✅,Matches.
+GitHub,MCP,Yes (via MCP server),Yes (via MCP server),✅,Matches (GitHub has official MCP servers).
+Discord,Auth,"OAuth2, Bot Token","OAuth2, Bot Token",✅,Matches.
+Discord,API,"REST, Gateway (WebSockets)","REST, Gateway (WebSockets)",✅,Matches.
+Discord,Self Serve,Yes,Yes,✅,Matches.
+Discord,MCP,No,No,✅,Matches.
+Google Ads,Auth,"OAuth2, Developer Token","OAuth2, Developer Token",✅,Matches.
+Google Ads,API,"gRPC, REST","gRPC, REST",✅,Matches.
+Google Ads,Self Serve,Yes,Yes,✅,Matches.
+Google Ads,MCP,No,No,✅,Matches.
+Mailchimp,Auth,"API Key, OAuth2","API Key, OAuth2",✅,Matches.
+Mailchimp,API,"REST, Webhooks","REST, Webhooks",✅,Matches.
+Mailchimp,Self Serve,Yes,Yes,✅,Matches.
+Mailchimp,MCP,No,No,✅,Matches.
+Vercel,Auth,"Bearer Token, OAuth2","Bearer Token, OAuth2",✅,Matches.
+Vercel,API,REST,REST,✅,Matches.
+Vercel,Self Serve,Yes,Yes,✅,Matches.
+Vercel,MCP,No,No,✅,Matches.
+Supabase,Auth,"JWT, API Key","JWT, API Key",✅,Matches.
+Supabase,API,"REST, GraphQL, WebSockets","REST, GraphQL, WebSockets",✅,Matches.
+Supabase,Self Serve,Yes,Yes,✅,Matches.
+Supabase,MCP,No,No,✅,Matches.
+Notion,Auth,"OAuth2, Internal Integration Token","OAuth2, Internal Integration Token",✅,Matches.
+Notion,API,REST,REST,✅,Matches.
+Notion,Self Serve,Yes,Yes,✅,Matches.
+Notion,MCP,Yes (via MCP server),Yes (via MCP server),✅,Matches (Notion supports custom integrations and MCP).
+Airtable,Auth,"Personal Access Token, OAuth2","Personal Access Token, OAuth2",✅,Matches.
+Airtable,API,"REST, Webhooks","REST, Webhooks",✅,Matches.
+Airtable,Self Serve,Yes,Yes,✅,Matches.
+Airtable,MCP,No,No,✅,Matches.
+Jira,Auth,"OAuth2, Basic Auth (API Token)","OAuth2, Basic Auth (API Token)",✅,Matches.
+Jira,API,"REST, Webhooks","REST, Webhooks",✅,Matches.
+Jira,Self Serve,Yes,Yes,✅,Matches.
+Jira,MCP,No,No,✅,Matches.
+Plaid,Auth,"Client ID & Secret, Access Token","Client ID & Secret, Access Token",✅,Matches.
+Plaid,API,REST,REST,✅,Matches.
+Plaid,Self Serve,Yes,Yes,✅,Matches.
+Plaid,MCP,No,No,✅,Matches.
+Otter AI,Auth,API Key,API Key,✅,Matches.
+Otter AI,API,REST,REST,✅,Matches.
+Otter AI,Self Serve,Gated,Gated,✅,Matches.
+Otter AI,MCP,Yes (via MCP server),Yes (via MCP server),✅,Matches.
+Devin,Auth,API Key,API Key,✅,Matches.
+Devin,API,REST,REST,✅,Matches.
+Devin,Self Serve,Gated,Gated,✅,Matches.
+Devin,MCP,Yes (via MCP server),Yes (via MCP server),✅,Matches.

@@ -1,13 +1,15 @@
-from dataclasses import dataclass
+from pydantic import BaseModel
 
-@dataclass
-class AppResearch:
+class AppResearch(BaseModel):
     app_name: str
     category: str
-    auth: str
+    description: str
+    authentication: str
     self_serve: str
     api_surface: str
+    graphQL: str
     mcp: str
     buildable: str
     blocker: str
     evidence: str
+    confidence: int

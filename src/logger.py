@@ -1,3 +1,9 @@
-"""
-Logging configurations and utilities.
-"""
+import logging
+
+logging.basicConfig(
+    filename="logs/research.log",
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s"
+)
+
+logger = logging.getLogger(__name__)

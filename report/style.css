@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    background: #F8F9FA;
+    color: #1F2937;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #111827;
+    margin-bottom: 1.5rem;
+    border-left: 5px solid #2563EB;
+    padding-left: 15px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 20px 30px;
+    list-style: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #F3F4F6;
+    color: #4B5563;
+    font-size: 0.95rem;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+ul li strong {
+    color: #111827;
+}
+
+/* Table Design */
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    margin-bottom: 2.5rem;
+}
+
+.table th,
+.table td {
+    padding: 12px 18px;
+    text-align: left;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.table th {
+    background-color: #F9FAFB;
+    font-weight: 600;
+    color: #374151;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+}
+
+.table tr:last-child td {
+    border-bottom: none;
+}
+
+.table tr:hover td {
+    background-color: #F9FAFB;
+}
+
+/* Images & Charts */
+img {
+    width: 450px;
+    margin: 20px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    background: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+    img {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
